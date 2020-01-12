@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Personal Website with information about me"
+    />
+    <title>Emiliano's Personal Site</title>
+  </head>
+  <body>
+    <table cellspacing="20">
+      <tr>
+        <td>
+          <img
+            src="C:\Users\emili\WebDevelopment Bootcamp\HTML-Personal Site\Emiliano-Gonzalez-Valdez-Headshot.jpg"
+            alt="Emiliano's profile picture"
+            width="250"
+            height="250"
+          />
+        </td>
+        <td>
+          <h1>Emiliano Gonzalez Valdez</h1>
+          <p>
+            <em
+              >Computer Science student at
+              <strong>
+                <a href="https://www.qc.cuny.edu/Pages/home.aspx">
+                  Queens College.
+                </a>
+              </strong>
+            </em>
+          </p>
+          <p>
+            Born and raised in the Dominican Repubic, moved to the US in 2015.
+            I'm a junior computer science student with minors in Psychology and
+            Mathematics at Queens College. I enjoy learning new things, thinking
+            critically about things and solving problems. I'm also an avid
+            reader, and in my free time I explore topics from my personal wide
+            range of interests. I'm currently exploring fields in software
+            development to hopefully find my place and contribute to society
+            using the skills I've acquired along the way.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr size="2" />
+    <h3>Education</h3>
+    <ul>
+      <li>
+        <!--TODO: put this into a table to format properly-->
+        Queens College of The City University of New York, Flushing, New York
+        2019-
+      </li>
+
+      <li>LaGuardia Community College, Long Island City, June 2019</li>
+      <li>
+        Colegio Padre Fortin, Santiago de Los Caballeros, Dominican Republic,
+        June 2014
+      </li>
+    </ul>
+    <!--
+      Intro to tables:
+        Tables help structure data. By default, when you create a table,
+        the table has no borders (it can be added using css). There are attributes that were once
+        useful for tables, but now are deprecated.
+        <table> 
+          <tr> -Creates a table row.
+            <td> - creates a table cell for that row.
+          </tr>
+        </table>
+        If we want our table to have headers then we should use the following structure
+        <table> 
+          <thead>
+            <th> Creates a table header cell
+          </thead>
+          <tbody>
+            <tr> 
+              <td> table cell
+                 </td>
+            </tr>
+          </tbody>
+        </table>
+
+    -->
+    <hr size="2" />
+    <h3>Work Experience</h3>
+    <table>
+      <thead>
+        <th>Date</th>
+        <th>Work</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sept 2016-Jan 2017</td>
+          <td>Restaurant Crew Member at Chipotle Mexican Grill</td>
+        </tr>
+        <tr>
+          <td>Aug 2013-Jun 2014</td>
+          <td>ESL Teacher at International Language College</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr size="2" />
+    <!--A nested table to display my skills. This is an example
+    of why html isn't that nice to affect the layout of the web page-->
+    <h3>Skills</h3>
+    <table border="1">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Java</td>
+              <td>&#9733&#9733&#9733</td>
+            </tr>
+            <tr>
+              <td>Spanish</td>
+              <td>&#9733&#9733&#9733&#9733&#9733</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td>&#9733&#9733&#9733</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>JavaScript </td>
+              <td>&#9733&#9733</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>&#9733&#9733</td>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>&#9733&#9733&#9733</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <hr size="2" />
+    <a href="hobbies.html"> My Interests/Hobbies</a>
+    <h4>Like what you see?</h4>
+    <a href="contact-me.html">Contact me</a>
+    <!--Additional: Add projects, their brief descriptions and links to them
+    Note: download doesn't work since I don't own the source. Thus, we need to upload it to a server.
+  We'll learn more about this later on in the course-->
+  </body>
+</html>
